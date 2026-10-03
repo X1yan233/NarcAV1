@@ -1,0 +1,20 @@
+# build-asm32-win.py 产物清单 [asm32]
+target: armv7-apple-ios4.0.0
+toolchain: clang version 23.1.2 (https://github.com/llvm/llvm-project.git 85ac560262434c9ccfc0c183ec22d4138ed647fb)
+cdef_arm32.S: 29 符号 / 24 NEON
+cdef16_arm32.S: 21 符号 / 16 NEON
+filmgrain_arm32.S: 88 符号 / 72 NEON
+filmgrain16_arm32.S: 91 符号 / 74 NEON
+ipred_arm32.S: 38 符号 / 38 NEON
+ipred16_arm32.S: 42 符号 / 42 NEON
+itx_arm32.S: 405 符号 / 390 NEON
+itx16_arm32.S: 368 符号 / 351 NEON
+loopfilter_arm32.S: 21 符号 / 20 NEON
+loopfilter16_arm32.S: 20 符号 / 20 NEON
+looprestoration_arm32.S: 22 符号 / 20 NEON
+looprestoration16_arm32.S: 22 符号 / 20 NEON
+looprestoration_common_arm32.S: 9 符号 / 9 NEON
+mc_arm32.S: 69 符号 / 69 NEON
+mc16_arm32.S: 69 符号 / 69 NEON
+msac_arm32.S: 16 符号 / 14 NEON
+refmvs_arm32.S: 6 符号 / 4 NEON
